@@ -2,7 +2,7 @@
 include 'system/proses.php';
 require('pdf/fpdf.php');
 date_default_timezone_set('Asia/Jakarta');
-$pdf = new FPDF("L","cm","A4");
+$pdf = new FPDF("L","cm","A4"); #test
 
 $pdf->SetMargins(2,1,1);
 $pdf->AliasNbPages();
